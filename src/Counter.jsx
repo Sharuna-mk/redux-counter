@@ -34,7 +34,7 @@ function Counter() {
 
                     <div className="flex gap-2 mt-3">
 
-                        <Button className='flex-1 text-[#BE123C] bg-[#FFE4E6] hover:bg-[#fecdd3] shadow-sm text-xl' onClick={() => dispatch(increment())}>
+                        <Button className='flex-1 text-[#BE123C] !bg-[#FFE4E6] hover:bg-[#fecdd3] shadow-sm text-xl' onClick={() => dispatch(increment())}>
                             <IoIosAdd />
                         </Button>
 
