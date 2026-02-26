@@ -38,11 +38,11 @@ function Counter() {
                             <IoIosAdd />
                         </Button>
 
-                        <Button className='flex-1 text-[#BE123C] bg-[#FFE4E6] hover:bg-[#fecdd3] shadow-sm text-lg text-center' onClick={() => dispatch(decrement())}>
+                        <Button className='flex-1 text-[#BE123C] !bg-[#FFE4E6] hover:bg-[#fecdd3] shadow-sm text-lg text-center' onClick={() => dispatch(decrement())}>
                             <FiMinus />
                         </Button>
 
-                        <Button className='flex-1 text-[#BE123C] bg-[#FFE4E6] hover:bg-[#fecdd3] shadow-sm ' onClick={() => dispatch(reset())}>
+                        <Button className='flex-1 text-[#BE123C] !bg-[#FFE4E6] hover:bg-[#fecdd3] shadow-sm ' onClick={() => dispatch(reset())}>
                             <RiResetLeftFill />
                         </Button>
 
